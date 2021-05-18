@@ -233,7 +233,7 @@ public class TestPedidos {
          * 
          */
 
-        pedidosMult.calcularTotalBultos();
+        pedidosMult.calcularNumlBultos();
         assertEquals(3, pedidosMult.getNumBultos(), 0);
 
         pedidosMult.calcularPesoTotal();
